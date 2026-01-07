@@ -28,6 +28,24 @@ export default function Contact() {
             </div>
           </div>
         </div>
+
+        {/* Google Map */}
+        <div className="mt-12">
+          <div className="font-mono text-xs text-neutral-400 tracking-widest uppercase mb-4">// Location</div>
+          <div className="border-2 border-white/30 overflow-hidden" style={{ boxShadow: '0 0 15px rgba(255,255,255,0.1)' }}>
+            <iframe
+              src="https://maps.google.com/maps?q=Anna%20University,%20Guindy,%20Chennai&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Anna University Location"
+              className="w-full h-64 md:h-96"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
   );
