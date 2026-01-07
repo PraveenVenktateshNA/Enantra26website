@@ -6,6 +6,7 @@ export default function Home() {
   const heroRef = useScrollReveal({ threshold: 0.6 });
   const ausecRef = useScrollReveal({ threshold: 0.3 });
   const enantraRef = useScrollReveal({ threshold: 0.3 });
+  const galleryRef = useScrollReveal({ threshold: 0.2 });
   const socialsRef = useScrollReveal({ threshold: 0.3 });
   const [showTitle, setShowTitle] = useState(false);
   const [timeLeft, setTimeLeft] = useState({
@@ -147,6 +148,45 @@ export default function Home() {
           <p className="mt-4 text-neutral-300 max-w-3xl ml-auto font-mono text-sm md:text-base leading-relaxed">
             It takes flight with carefully curated events to explore different niches of entrepreneurship where students can push their boundaries and unlock their potentials.
           </p>
+        </div>
+      </section>
+
+      {/* Media Gallery - Honeycomb */}
+      <section className="w-full py-12 md:py-16 overflow-hidden">
+        <div ref={galleryRef} className="reveal text-center">
+          <h2 className="text-xl md:text-3xl font-bold tracking-wider font-mono uppercase px-4" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
+            <span className="text-neutral-500">&gt;&gt;</span> MEDIA GALLERY
+          </h2>
+          <div className="mt-4 text-neutral-500 font-mono text-xs tracking-widest">
+            ━━━━━━━━━━━━━━━━━━━━━━
+          </div>
+          
+          <div className="honeycomb-gallery mt-8">
+            {/* Row 1: 10 hexagons */}
+            <div className="hex-row">
+              {[...Array(10)].map((_, i) => (
+                <div key={`r1-${i}`} className="hexagon">
+                  <img src={`https://picsum.photos/200/200?random=${i + 1}`} alt={`Gallery ${i + 1}`} />
+                </div>
+              ))}
+            </div>
+            {/* Row 2: 9 hexagons */}
+            <div className="hex-row">
+              {[...Array(9)].map((_, i) => (
+                <div key={`r2-${i}`} className="hexagon">
+                  <img src={`https://picsum.photos/200/200?random=${i + 11}`} alt={`Gallery ${i + 11}`} />
+                </div>
+              ))}
+            </div>
+            {/* Row 3: 10 hexagons */}
+            <div className="hex-row">
+              {[...Array(10)].map((_, i) => (
+                <div key={`r3-${i}`} className="hexagon">
+                  <img src={`https://picsum.photos/200/200?random=${i + 20}`} alt={`Gallery ${i + 20}`} />
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
