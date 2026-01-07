@@ -97,7 +97,7 @@ export default function Home() {
           </div>
 
           <p className="mt-6 text-neutral-400 font-mono text-xs tracking-widest uppercase">
-            Countdown to Enantra 26
+            Countdown to Enantra 26 btw everything here is placeholders and not final prod :)
           </p>
           
           <p className="mt-6 text-neutral-300 max-w-2xl mx-auto font-mono text-sm tracking-wide">
