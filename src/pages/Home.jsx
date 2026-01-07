@@ -51,12 +51,12 @@ export default function Home() {
             <img 
               src={enantraLogo} 
               alt="Enantra Logo" 
-              className="w-48 h-48 md:w-64 md:h-64 object-contain"
+              className="w-40 h-40 md:w-56 md:h-56 object-contain"
               style={{ filter: 'drop-shadow(0 0 20px rgba(255, 215, 0, 0.3))' }}
             />
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold tracking-wider font-mono md:ml-20">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-wider font-mono md:ml-20">
             {showTitle && (
               <span className="typewriter cursor" style={{ textShadow: '0 0 20px rgba(255,255,255,0.5)' }}>
                 ENANTRA '26
@@ -67,28 +67,28 @@ export default function Home() {
           {/* Countdown Timer */}
           <div className="mt-8 flex justify-center gap-4 md:gap-8">
             <div className="flex flex-col items-center">
-              <div className="text-3xl md:text-5xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
+              <div className="text-2xl md:text-4xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
                 {String(timeLeft.days).padStart(2, '0')}
               </div>
               <div className="text-xs md:text-sm font-mono text-neutral-400 mt-1 tracking-widest">DAYS</div>
             </div>
-            <div className="text-3xl md:text-5xl font-bold font-mono text-neutral-500 self-start">:</div>
+            <div className="text-2xl md:text-4xl font-bold font-mono text-neutral-500 self-start">:</div>
             <div className="flex flex-col items-center">
-              <div className="text-3xl md:text-5xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
+              <div className="text-2xl md:text-4xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
                 {String(timeLeft.hours).padStart(2, '0')}
               </div>
               <div className="text-xs md:text-sm font-mono text-neutral-400 mt-1 tracking-widest">HOURS</div>
             </div>
-            <div className="text-3xl md:text-5xl font-bold font-mono text-neutral-500 self-start">:</div>
+            <div className="text-2xl md:text-4xl font-bold font-mono text-neutral-500 self-start">:</div>
             <div className="flex flex-col items-center">
-              <div className="text-3xl md:text-5xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
+              <div className="text-2xl md:text-4xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
                 {String(timeLeft.minutes).padStart(2, '0')}
               </div>
               <div className="text-xs md:text-sm font-mono text-neutral-400 mt-1 tracking-widest">MINS</div>
             </div>
-            <div className="text-3xl md:text-5xl font-bold font-mono text-neutral-500 self-start">:</div>
+            <div className="text-2xl md:text-4xl font-bold font-mono text-neutral-500 self-start">:</div>
             <div className="flex flex-col items-center">
-              <div className="text-3xl md:text-5xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
+              <div className="text-2xl md:text-4xl font-bold font-mono text-white" style={{ textShadow: '0 0 15px rgba(255,255,255,0.4)' }}>
                 {String(timeLeft.seconds).padStart(2, '0')}
               </div>
               <div className="text-xs md:text-sm font-mono text-neutral-400 mt-1 tracking-widest">SECS</div>
@@ -111,13 +111,13 @@ export default function Home() {
       {/* AUSEC Section - Fade from Left */}
       <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div ref={ausecRef} className="reveal-left">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
             AUSEC
           </h2>
           <div className="mt-4 text-neutral-500 font-mono text-xs tracking-widest">
             ━━━━━━━━━━━━━━━━━━━━━━
           </div>
-          <h3 className="mt-8 text-xl md:text-2xl font-bold tracking-wide font-mono text-white">
+          <h3 className="mt-8 text-lg md:text-xl font-bold tracking-wide font-mono text-white">
             WHAT IS AUSEC?
           </h3>
           <p className="mt-6 text-neutral-300 max-w-3xl font-mono text-sm md:text-base leading-relaxed">
@@ -132,7 +132,7 @@ export default function Home() {
       {/* ENANTRA Section - Fade from Right */}
       <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div ref={enantraRef} className="reveal-right text-right">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
             ENANTRA
           </h2>
           <div className="mt-4 text-neutral-500 font-mono text-xs tracking-widest flex justify-end">
@@ -153,7 +153,7 @@ export default function Home() {
       {/* Beyond This Page - Social Links */}
       <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div ref={socialsRef} className="reveal text-center">
-          <h2 className="text-2xl md:text-4xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
+          <h2 className="text-xl md:text-3xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
             <span className="text-neutral-500">&gt;&gt;</span> BEYOND THIS PAGE
           </h2>
           <div className="mt-4 text-neutral-500 font-mono text-xs tracking-widest">
