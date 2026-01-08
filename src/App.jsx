@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import About from './pages/About';
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/schedule" element={<Schedule />} />        <Route path="/sponsors" element={<Sponsors />} />          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }
