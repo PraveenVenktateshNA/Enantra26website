@@ -151,7 +151,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Media Gallery - Honeycomb */}
+      {/* Media Gallery - Film Roll */}
       <section className="w-full py-12 md:py-16 overflow-hidden">
         <div ref={galleryRef} className="reveal text-center">
           <h2 className="text-xl md:text-3xl font-bold tracking-wider font-mono uppercase px-4" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
@@ -161,28 +161,62 @@ export default function Home() {
             ━━━━━━━━━━━━━━━━━━━━━━
           </div>
           
-          <div className="honeycomb-gallery mt-8">
-            {/* Row 1: 10 hexagons */}
-            <div className="hex-row">
-              {[...Array(10)].map((_, i) => (
-                <div key={`r1-${i}`} className="hexagon">
-                  <img src={`https://picsum.photos/200/200?random=${i + 1}`} alt={`Gallery ${i + 1}`} />
+          <div className="film-container mt-8">
+            <div className="film-strip">
+              {/* First set of frames */}
+              {[...Array(15)].map((_, i) => (
+                <div key={`frame-${i}`} className="film-segment">
+                  <div className="sprocket-strip">
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                  </div>
+                  <div className="film-frame">
+                    <img src={`https://picsum.photos/400/300?random=${i + 1}`} alt={`Gallery ${i + 1}`} />
+                  </div>
+                  <div className="sprocket-strip">
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                  </div>
                 </div>
               ))}
-            </div>
-            {/* Row 2: 9 hexagons */}
-            <div className="hex-row">
-              {[...Array(9)].map((_, i) => (
-                <div key={`r2-${i}`} className="hexagon">
-                  <img src={`https://picsum.photos/200/200?random=${i + 11}`} alt={`Gallery ${i + 11}`} />
-                </div>
-              ))}
-            </div>
-            {/* Row 3: 10 hexagons */}
-            <div className="hex-row">
-              {[...Array(10)].map((_, i) => (
-                <div key={`r3-${i}`} className="hexagon">
-                  <img src={`https://picsum.photos/200/200?random=${i + 20}`} alt={`Gallery ${i + 20}`} />
+              {/* Duplicate for seamless loop */}
+              {[...Array(15)].map((_, i) => (
+                <div key={`frame-dup-${i}`} className="film-segment">
+                  <div className="sprocket-strip">
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                  </div>
+                  <div className="film-frame">
+                    <img src={`https://picsum.photos/400/300?random=${i + 1}`} alt={`Gallery ${i + 1}`} />
+                  </div>
+                  <div className="sprocket-strip">
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                    <div className="hole"></div>
+                  </div>
                 </div>
               ))}
             </div>
