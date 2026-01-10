@@ -11,8 +11,7 @@ export default function Navbar() {
         <ul className="flex items-center gap-8">
           {[
             { to: '/events', label: 'Events' },
-            { to: '/about', label: 'About' },
-            { to: '/schedule', label: 'Schedule' },
+            { to: '/about', label: 'About' },            { to: '/team', label: 'Team' },            { to: '/schedule', label: 'Schedule' },
             { to: '/sponsors', label: 'Sponsors' },
             { to: '/contact', label: 'Contact' },
           ].map((item) => (

@@ -4,14 +4,14 @@ import linkedinIcon from '../assets/linkedin.png';
 export default function Footer() {
   return (
     <footer className="w-full border-t border-white/20 bg-black text-white">
-      <div className="mx-auto max-w-6xl px-4 py-6 flex flex-col items-center gap-4 md:flex-row md:justify-between">
+      <div className="mx-auto max-w-6xl px-4 py-6 flex flex-col items-center gap-4 md:flex-row md:justify-between md:relative">
         {/* Left - Copyright */}
-        <span className="font-mono text-xs md:text-sm tracking-wide opacity-80">
+        <span className="font-mono text-[10px] md:text-xs tracking-wide opacity-70">
           Copyright to AUSEC<sup>©</sup>
         </span>
         
         {/* Middle - Developed by */}
-        <span className="font-mono text-xs md:text-sm tracking-wide opacity-80">
+        <span className="font-mono text-[10px] md:text-xs tracking-wide opacity-70 md:absolute md:left-1/2 md:transform md:-translate-x-1/2">
           Developed by AUSEC Tech
         </span>
         
