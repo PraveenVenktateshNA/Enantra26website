@@ -7,7 +7,7 @@ export default function Home() {
   const ausecRef = useScrollReveal({ threshold: 0.3 });
   const enantraRef = useScrollReveal({ threshold: 0.3 });
   const galleryRef = useScrollReveal({ threshold: 0.2 });
-  const socialsRef = useScrollReveal({ threshold: 0.3 });
+
   const [showTitle, setShowTitle] = useState(false);
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -221,65 +221,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Beyond This Page - Social Links */}
-      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
-        <div ref={socialsRef} className="reveal text-center">
-          <h2 className="text-xl md:text-3xl font-bold tracking-wider font-mono uppercase" style={{ textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>
-            <span className="text-neutral-500">&gt;&gt;</span> BEYOND THIS PAGE
-          </h2>
-          <div className="mt-4 text-neutral-500 font-mono text-xs tracking-widest">
-            ━━━━━━━━━━━━━━━━━━━━━━
-          </div>
-          
-          <div className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8">
-            {/* Instagram */}
-            <a
-              href="https://www.instagram.com/_ausec_/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group border-2 border-white/30 bg-black p-6 md:p-8 hover:border-white hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 flex flex-col items-center justify-center min-w-[140px] md:min-w-[180px]"
-            >
-              <div className="text-4xl md:text-5xl mb-3 md:mb-4 font-mono text-white">IG</div>
-              <div className="text-xs md:text-sm font-mono tracking-widest text-neutral-400 group-hover:text-white transition">
-                INSTAGRAM
-              </div>
-            </a>
-
-            {/* LinkedIn */}
-            <a
-              href="https://www.linkedin.com/in/anna-university-student-entrepreneurship-club-ausec/?originalSubdomain=in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group border-2 border-white/30 bg-black p-6 md:p-8 hover:border-white hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 flex flex-col items-center justify-center min-w-[140px] md:min-w-[180px]"
-            >
-              <div className="text-4xl md:text-5xl mb-3 md:mb-4 font-mono text-white">in</div>
-              <div className="text-xs md:text-sm font-mono tracking-widest text-neutral-400 group-hover:text-white transition">
-                LINKEDIN
-              </div>
-            </a>
-
-            {/* Placeholder for future social links */}
-            {/* Uncomment and modify as needed
-            <a
-              href="https://twitter.com/yourhandle"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group border-2 border-white/30 p-6 md:p-8 hover:border-white hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 flex flex-col items-center justify-center min-w-[140px] md:min-w-[180px]"
-            >
-              <div className="text-4xl md:text-5xl mb-3 md:mb-4 font-mono">X</div>
-              <div className="text-xs md:text-sm font-mono tracking-widest text-neutral-400 group-hover:text-white transition">
-                TWITTER
-              </div>
-            </a>
-            */}
-          </div>
-
-          <p className="mt-12 text-neutral-400 font-mono text-xs tracking-widest">
-            FOLLOW US FOR UPDATES
-          </p>
         </div>
       </section>
     </>
