@@ -975,6 +975,14 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
 .event-modal-backdrop {
   background-color: rgba(0, 0, 0, 0.9);
   transition: background-color 500ms ease;
+  position: fixed !important;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.event-modal-backdrop::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
 .event-modal-content {
@@ -1201,4 +1209,15 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
 .event-modal-content[data-event-id="12"] .modal-close-btn {
   color: #b8cc8f;
   text-shadow: 0 0 10px #b8cc8f;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.event-modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.event-modal-content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

@@ -1,12 +1,23 @@
+import { useEffect } from 'react';
+
 export default function EventModal({ event, onClose }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    const originalStyle = window.getComputedStyle(document.body).overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = originalStyle;
+    };
+  }, []);
+
   return (
-    <div 
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 event-modal-backdrop"
+    <div
+      className="fixed inset-0 z-50 flex items-start justify-center p-4 event-modal-backdrop"
       data-event-id={event.id}
       onClick={onClose}
     >
-      <div 
-        className={`event-modal-content relative max-w-2xl w-full p-8 max-h-[90vh] overflow-y-auto`}
+      <div
+        className={`event-modal-content relative max-w-2xl w-full p-8 my-8 overflow-y-auto max-h-[90vh]`}
         data-event-id={event.id}
         onClick={(e) => e.stopPropagation()}
       >
