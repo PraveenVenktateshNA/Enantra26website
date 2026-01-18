@@ -98,7 +98,9 @@
     font-family: "Press Start 2P", "Courier New", monospace;
     font-size: 18px;
     line-height: 1.8;
-    transition: background-color 500ms ease, color 500ms ease;
+    transition:
+      background-color 500ms ease,
+      color 500ms ease;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
   }
@@ -493,8 +495,10 @@ body::after {
 }
 .retro-hover:hover {
   letter-spacing: 0.15em;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-    0 0 20px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.2);
+  text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.4),
+    0 0 30px rgba(255, 255, 255, 0.2);
   transform: scale(1.02);
 }
 
@@ -502,7 +506,9 @@ body::after {
 .reveal {
   opacity: 0;
   transform: translateY(12px);
-  transition: opacity 600ms ease, transform 600ms ease;
+  transition:
+    opacity 600ms ease,
+    transform 600ms ease;
 }
 .reveal.in-view {
   opacity: 1;
@@ -513,7 +519,9 @@ body::after {
 .reveal-left {
   opacity: 0;
   transform: translateX(-50px);
-  transition: opacity 800ms ease, transform 800ms ease;
+  transition:
+    opacity 800ms ease,
+    transform 800ms ease;
 }
 .reveal-left.in-view {
   opacity: 1;
@@ -524,7 +532,9 @@ body::after {
 .reveal-right {
   opacity: 0;
   transform: translateX(50px);
-  transition: opacity 800ms ease, transform 800ms ease;
+  transition:
+    opacity 800ms ease,
+    transform 800ms ease;
 }
 .reveal-right.in-view {
   opacity: 1;
@@ -629,7 +639,9 @@ body::after {
   height: 100%;
   object-fit: cover;
   filter: sepia(0.15) contrast(1.05) saturate(0.9);
-  transition: filter 0.3s ease, transform 0.3s ease;
+  transition:
+    filter 0.3s ease,
+    transform 0.3s ease;
 }
 
 .film-frame:hover img {
@@ -679,7 +691,8 @@ body::after {
   background-color: #000000;
   color: #ffffff;
   position: relative;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1),
+  box-shadow:
+    0 0 15px rgba(255, 255, 255, 0.1),
     inset 0 0 20px rgba(255, 255, 255, 0.02);
 }
 
@@ -723,7 +736,9 @@ body::after {
   background-color: var(--card-bg);
   color: var(--card-text);
   border-color: var(--card-text);
-  box-shadow: 0 0 25px var(--card-text), inset 0 0 30px var(--card-text);
+  box-shadow:
+    0 0 25px var(--card-text),
+    inset 0 0 30px var(--card-text);
   transform: translateY(-2px);
   transition: all 0ms;
 }
@@ -790,10 +805,8 @@ body::after {
 
 /* Retro grid background pattern */
 .grid-pattern {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.03) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 30px 30px;
   transition: background-image 500ms ease;
@@ -802,162 +815,122 @@ body::after {
 /* Invert grid pattern for each card with unique colors */
 body:has(.grid > :nth-child(1) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(1) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(224, 108, 117, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(224, 108, 117, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(224, 108, 117, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(2) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(2) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(97, 175, 239, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(97, 175, 239, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(97, 175, 239, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(3) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(3) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(152, 195, 121, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(152, 195, 121, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(152, 195, 121, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(4) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(4) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(198, 120, 221, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(198, 120, 221, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(198, 120, 221, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(5) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(5) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(229, 192, 123, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(229, 192, 123, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(229, 192, 123, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(6) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(6) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(211, 134, 155, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(211, 134, 155, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(211, 134, 155, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(7) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(7) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(122, 162, 247, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(122, 162, 247, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(122, 162, 247, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(8) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(8) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(163, 190, 140, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(163, 190, 140, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(163, 190, 140, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(9) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(9) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(209, 154, 102, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(209, 154, 102, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(209, 154, 102, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(10) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(10) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(86, 182, 194, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(86, 182, 194, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(86, 182, 194, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(11) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(11) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(190, 80, 70, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(190, 80, 70, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(190, 80, 70, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(12) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(12) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(179, 214, 111, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(179, 214, 111, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(179, 214, 111, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(13) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(13) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(136, 192, 208, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(136, 192, 208, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(136, 192, 208, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(14) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(14) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(180, 142, 173, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(180, 142, 173, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(180, 142, 173, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(15) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(15) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(229, 181, 103, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(229, 181, 103, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(229, 181, 103, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(16) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(16) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(125, 207, 255, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(125, 207, 255, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(125, 207, 255, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(17) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(17) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(208, 135, 112, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(208, 135, 112, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(208, 135, 112, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(18) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(18) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(154, 165, 206, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(154, 165, 206, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(154, 165, 206, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(19) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(19) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(195, 232, 141, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(195, 232, 141, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(195, 232, 141, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(20) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
-  background-image: linear-gradient(
-      rgba(187, 154, 247, 0.08) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(rgba(187, 154, 247, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(187, 154, 247, 0.08) 1px, transparent 1px) !important;
 }
 .press-start-2p-regular {
@@ -1006,7 +979,8 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #000000;
   color: #ffffff;
   border: 3px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2),
+  box-shadow:
+    0 0 30px rgba(255, 255, 255, 0.2),
     inset 0 0 30px rgba(255, 255, 255, 0.05);
   transition: all 500ms ease;
 }
@@ -1031,7 +1005,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #1a1c1f;
   color: #e06c75;
   border-color: #e06c75;
-  box-shadow: 0 0 30px #e06c75, inset 0 0 30px rgba(224, 108, 117, 0.1);
+  box-shadow:
+    0 0 30px #e06c75,
+    inset 0 0 30px rgba(224, 108, 117, 0.1);
 }
 .event-modal-content[data-event-id="1"] .modal-corner {
   display: none;
@@ -1048,7 +1024,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #0f1624;
   color: #61afef;
   border-color: #61afef;
-  box-shadow: 0 0 30px #61afef, inset 0 0 30px rgba(97, 175, 239, 0.1);
+  box-shadow:
+    0 0 30px #61afef,
+    inset 0 0 30px rgba(97, 175, 239, 0.1);
 }
 .event-modal-content[data-event-id="2"] .modal-corner {
   display: none;
@@ -1065,7 +1043,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #0d1117;
   color: #98c379;
   border-color: #98c379;
-  box-shadow: 0 0 30px #98c379, inset 0 0 30px rgba(152, 195, 121, 0.1);
+  box-shadow:
+    0 0 30px #98c379,
+    inset 0 0 30px rgba(152, 195, 121, 0.1);
 }
 .event-modal-content[data-event-id="3"] .modal-corner {
   display: none;
@@ -1082,7 +1062,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #181823;
   color: #c678dd;
   border-color: #c678dd;
-  box-shadow: 0 0 30px #c678dd, inset 0 0 30px rgba(198, 120, 221, 0.1);
+  box-shadow:
+    0 0 30px #c678dd,
+    inset 0 0 30px rgba(198, 120, 221, 0.1);
 }
 .event-modal-content[data-event-id="4"] .modal-corner {
   display: none;
@@ -1099,7 +1081,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #1a1412;
   color: #e5c07b;
   border-color: #e5c07b;
-  box-shadow: 0 0 30px #e5c07b, inset 0 0 30px rgba(229, 192, 123, 0.1);
+  box-shadow:
+    0 0 30px #e5c07b,
+    inset 0 0 30px rgba(229, 192, 123, 0.1);
 }
 .event-modal-content[data-event-id="5"] .modal-corner {
   display: none;
@@ -1116,7 +1100,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #1d1520;
   color: #d19a9a;
   border-color: #d19a9a;
-  box-shadow: 0 0 30px #d19a9a, inset 0 0 30px rgba(209, 154, 154, 0.1);
+  box-shadow:
+    0 0 30px #d19a9a,
+    inset 0 0 30px rgba(209, 154, 154, 0.1);
 }
 .event-modal-content[data-event-id="6"] .modal-corner {
   display: none;
@@ -1133,7 +1119,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #14171f;
   color: #7aa2c7;
   border-color: #7aa2c7;
-  box-shadow: 0 0 30px #7aa2c7, inset 0 0 30px rgba(122, 162, 199, 0.1);
+  box-shadow:
+    0 0 30px #7aa2c7,
+    inset 0 0 30px rgba(122, 162, 199, 0.1);
 }
 .event-modal-content[data-event-id="7"] .modal-corner {
   display: none;
@@ -1150,7 +1138,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #161d15;
   color: #a8b89f;
   border-color: #a8b89f;
-  box-shadow: 0 0 30px #a8b89f, inset 0 0 30px rgba(168, 184, 159, 0.1);
+  box-shadow:
+    0 0 30px #a8b89f,
+    inset 0 0 30px rgba(168, 184, 159, 0.1);
 }
 .event-modal-content[data-event-id="8"] .modal-corner {
   display: none;
@@ -1167,7 +1157,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #1f1814;
   color: #d08770;
   border-color: #d08770;
-  box-shadow: 0 0 30px #d08770, inset 0 0 30px rgba(208, 135, 112, 0.1);
+  box-shadow:
+    0 0 30px #d08770,
+    inset 0 0 30px rgba(208, 135, 112, 0.1);
 }
 .event-modal-content[data-event-id="9"] .modal-corner {
   display: none;
@@ -1184,7 +1176,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #0e1b1a;
   color: #88c0d0;
   border-color: #88c0d0;
-  box-shadow: 0 0 30px #88c0d0, inset 0 0 30px rgba(136, 192, 208, 0.1);
+  box-shadow:
+    0 0 30px #88c0d0,
+    inset 0 0 30px rgba(136, 192, 208, 0.1);
 }
 .event-modal-content[data-event-id="10"] .modal-corner {
   display: none;
@@ -1201,7 +1195,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #1c1215;
   color: #bf616a;
   border-color: #bf616a;
-  box-shadow: 0 0 30px #bf616a, inset 0 0 30px rgba(191, 97, 106, 0.1);
+  box-shadow:
+    0 0 30px #bf616a,
+    inset 0 0 30px rgba(191, 97, 106, 0.1);
 }
 .event-modal-content[data-event-id="11"] .modal-corner {
   display: none;
@@ -1218,7 +1214,9 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   background-color: #171f16;
   color: #b8cc8f;
   border-color: #b8cc8f;
-  box-shadow: 0 0 30px #b8cc8f, inset 0 0 30px rgba(184, 204, 143, 0.1);
+  box-shadow:
+    0 0 30px #b8cc8f,
+    inset 0 0 30px rgba(184, 204, 143, 0.1);
 }
 .event-modal-content[data-event-id="12"] .modal-corner {
   display: none;
