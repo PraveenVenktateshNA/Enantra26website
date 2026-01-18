@@ -70,7 +70,7 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 items-stretch">
         {teamMembers.map((member) => {
           const RevealMember = () => {
             const ref = useScrollReveal({ threshold: 0.1 });
@@ -78,18 +78,18 @@ export default function Team() {
               <div
                 ref={ref}
                 key={member.id}
-                className="reveal flex flex-col items-center justify-center p-6 border-2 border-white bg-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300"
+                className="reveal flex flex-col items-center justify-center p-3 sm:p-4 md:p-6 border-2 border-white bg-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300"
               >
-                <div className="w-full h-48 flex items-center justify-center mb-4">
+                <div className="w-full h-64 sm:h-52 md:h-48 flex items-center justify-center mb-3 sm:mb-4">
                   {member.photo && (
                     <img
                       src={member.photo}
                       alt={member.name}
-                      className="max-w-full max-h-full object-contain"
+                      className="w-full h-full object-contain"
                     />
                   )}
                 </div>
-                <h3 className="text-center font-mono text-sm tracking-wide uppercase text-white mb-2">
+                <h3 className="text-center font-mono text-sm sm:text-sm tracking-wide uppercase text-white mb-2">
                   {member.name}
                 </h3>
                 <p className="text-center font-mono text-xs tracking-wide text-neutral-400 mb-3">
@@ -98,7 +98,7 @@ export default function Team() {
                 
                 {/* Social Icons */}
                 {(member.instagram || member.linkedin) && (
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex gap-4 sm:gap-3 mt-2">
                     {member.instagram && (
                       <a
                         href={member.instagram}
@@ -106,7 +106,7 @@ export default function Team() {
                         rel="noopener noreferrer"
                         className="hover:opacity-70 transition-opacity"
                       >
-                        <img src={instagramIcon} alt="Instagram" className="w-6 h-5 object-contain" style={{ imageRendering: 'crisp-edges' }} />
+                        <img src={instagramIcon} alt="Instagram" className="w-8 h-7 sm:w-6 sm:h-5 object-contain" style={{ imageRendering: 'crisp-edges' }} />
                       </a>
                     )}
                     {member.linkedin && (
@@ -116,7 +116,7 @@ export default function Team() {
                         rel="noopener noreferrer"
                         className="hover:opacity-70 transition-opacity"
                       >
-                        <img src={linkedinIcon} alt="LinkedIn" className="w-5 h-5 object-contain" />
+                        <img src={linkedinIcon} alt="LinkedIn" className="w-7 h-7 sm:w-5 sm:h-5 object-contain" />
                       </a>
                     )}
                   </div>

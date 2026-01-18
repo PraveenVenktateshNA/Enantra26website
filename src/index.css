@@ -531,6 +531,23 @@ body::after {
   transform: translateX(0);
 }
 
+/* Signature Events - Clean minimal style matching site aesthetic */
+.sig-event-card {
+  /* Uses reveal-left and reveal-right classes for animations */
+}
+
+/* Mobile responsive for signature events */
+@media (max-width: 768px) {
+  .sig-event-card h3 {
+    font-size: 0.9rem !important;
+  }
+
+  .sig-event-card p {
+    font-size: 0.65rem !important;
+    line-height: 1.7 !important;
+  }
+}
+
 /* Film Roll Gallery - Authentic Style */
 .film-container {
   width: 100vw;
