@@ -68,7 +68,11 @@ export default function EventModal({ event, onClose }) {
           {/* Rules */}
           <div>
             <div className="text-neutral-400 text-xs tracking-widest mb-2">// RULES & ELIGIBILITY</div>
-            <p className="text-white leading-relaxed">{event.rules}</p>
+            <ul className="text-white leading-relaxed list-disc list-inside space-y-2">
+              {event.rules.map((rule, index) => (
+                <li key={index}>{rule}</li>
+              ))}
+            </ul>
           </div>
           
           {/* Date & Time */}

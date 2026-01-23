@@ -25,6 +25,9 @@ import sohamPhoto from '../assets/OB Pics/soham.JPG';
 import sreenithikaPhoto from '../assets/OB Pics/Sreenithika.jpg';
 import thiyaneshwarPhoto from '../assets/OB Pics/Thiyaneshwar-Ops.jpg';
 import vandanaPhoto from '../assets/OB Pics/Vandana.jpg';
+import boomithPhoto from '../assets/OB Pics/Boomith.jpeg';
+import phavanPhoto from '../assets/OB Pics/Phavan.jpg';
+import poojithaPhoto from '../assets/OB Pics/Poojitha.jpeg';
 
 export default function Team() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
@@ -34,7 +37,7 @@ export default function Team() {
     { id: 2, name: 'Sarveshwaran S', role: 'Vice President', photo: sarveshwaranPhoto, instagram: 'https://www.instagram.com/sarveshwaran1011?igsh=MWpvaTV4Z2U5YnJqbA==', linkedin: 'https://www.linkedin.com/in/sarveshwaran-s-b40171256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     { id: 3, name: 'J SOHAM', role: 'Vice President', photo: sohamPhoto, instagram: 'https://www.instagram.com/soham__2421/', linkedin: 'https://www.linkedin.com/in/j-soham-panda-971b8724b/' },
     { id: 4, name: 'Lokeshwar', role: 'General Secretary', photo: lokeshwarPhoto, instagram: 'https://www.instagram.com/lokeshwar19/', linkedin: 'https://www.linkedin.com/in/lokeshwar-sivakumar/' },
-    { id: 5, name: 'Phavankumar RL', role: 'Treasurer', photo: null, instagram: 'https://www.instagram.com/its._.phavan/', linkedin: '' },
+    { id: 5, name: 'Phavankumar RL', role: 'Treasurer', photo: phavanPhoto, instagram: 'https://www.instagram.com/its._.phavan/', linkedin: '' },
     { id: 6, name: 'Rishabh Karthik', role: 'Treasurer', photo: rishabhPhoto, instagram: 'https://www.instagram.com/rishabhkarthik?igsh=cHFncWhqc2M2MGhz&utm_source=qr', linkedin: 'https://www.linkedin.com/in/rishabhkarthik/' },
     { id: 7, name: 'Krishnendu M R', role: 'Tech', photo: krishnenduPhoto, instagram: 'https://www.instagram.com/krishnendu.m.r/', linkedin: 'https://linkedin.com/in/krishnendumr' },
     { id: 8, name: 'Adithya Arumugam', role: 'Events', photo: adithyaPhoto, instagram: 'https://www.instagram.com/__adithya_2004?igsh=d2ZkbGsweXpscWR1', linkedin: 'https://www.linkedin.com/in/adithya-arumugam3572?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
@@ -46,7 +49,7 @@ export default function Team() {
     { id: 14, name: 'Prasanna raj J', role: 'Operations', photo: prasannaPhoto, instagram: 'https://www.instagram.com/_prasanna21__/', linkedin: '' },
     { id: 15, name: 'Harish', role: 'Operations', photo: harishPhoto, instagram: 'https://www.instagram.com/_hxrish_._?igsh=MWRkbWoxOWZ4N2Vicw%3D%3D&utm_source=qr', linkedin: 'https://www.linkedin.com/in/harish-n-994406265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
     { id: 16, name: 'Dakshinya D', role: 'Marketing', photo: dakshinyaPhoto, instagram: 'https://www.instagram.com/dakshinya_3/', linkedin: 'https://www.linkedin.com/in/dakshinya-d-92a647317/' },
-    { id: 17, name: 'Bhoomith', role: 'Marketing', photo: null, instagram: 'https://www.instagram.com/____bhoomith____?igsh=NzhwMmlkcmduNDFp&utm_source=ig_contact_invite', linkedin: 'https://www.linkedin.com/in/bhoomith-muruganantham?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    { id: 17, name: 'Bhoomith', role: 'Marketing', photo: boomithPhoto, instagram: 'https://www.instagram.com/____bhoomith____?igsh=NzhwMmlkcmduNDFp&utm_source=ig_contact_invite', linkedin: 'https://www.linkedin.com/in/bhoomith-muruganantham?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     { id: 18, name: 'Haresh P J', role: 'Marketing', photo: hareshPhoto, instagram: 'https://www.instagram.com/haresh_pj?igsh=YXpmaGRqcTBvaTEy', linkedin: 'https://www.linkedin.com/in/hareshpj?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     { id: 19, name: 'Duraiprabakaran', role: 'Outreach', photo: duraiprabakaranPhoto, instagram: 'https://www.instagram.com/itzz_me_prabha027?igsh=aXY3YjcycmFmZTlk', linkedin: 'https://www.linkedin.com/in/duraiprabhakaran-p-2b19202a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     { id: 20, name: 'Krishnaraj C', role: 'Outreach', photo: krishnarajPhoto, instagram: 'https://www.instagram.com/itz_kd_krish_?igsh=MW96Z2M3ZzZtMXJkag==', linkedin: 'https://www.linkedin.com/in/krishna-raj-951779299?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
@@ -55,7 +58,7 @@ export default function Team() {
     { id: 23, name: 'Akshaya G', role: 'Media', photo: akshayaPhoto, instagram: 'https://www.instagram.com/vhenn_fynt?igsh=MWxjZTBnNGJ3NzVoaA==', linkedin: 'https://www.linkedin.com/in/akshaya-g-1b607122b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     { id: 24, name: 'Madhanakumar k', role: 'Media', photo: madhanakumarPhoto, instagram: 'https://www.instagram.com/ma_d_han?igsh=MXI4dmtoN2N6ZHFjNA%3D%3D&utm_source=qr', linkedin: 'https://www.linkedin.com/in/madhan-kumar-24922b289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
     { id: 25, name: 'Sreenithika', role: 'Creativity', photo: sreenithikaPhoto, instagram: 'https://www.instagram.com/sreenithika_/', linkedin: 'https://www.linkedin.com/in/sreenithikasaravanakumar/' },
-    { id: 26, name: 'Poojitha J', role: 'Creativity', photo: null, instagram: 'https://www.instagram.com/xxlunacelestiaxx/', linkedin: '' },
+    { id: 26, name: 'Poojitha J', role: 'Creativity', photo: poojithaPhoto, instagram: 'https://www.instagram.com/xxlunacelestiaxx/', linkedin: '' },
   ];
 
   return (
