@@ -10,8 +10,8 @@ export default function Events() {
   const events = [
     { 
       id: 1,
-      title: 'Event 1', 
-      text: 'This is event 1 description.',
+      title: '6 DEGREE TALKS', 
+      text: 'ENANTRA’s flagship event spotlighting bold young entrepreneurs and their journeys.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+1',
       fullDescription: 'This is the full detailed description of Event 1. It provides comprehensive information about what attendees can expect.',
       rules: 'Open to all participants. Team size: 2-4 members. Prior registration required.',
@@ -22,8 +22,8 @@ export default function Events() {
     },
     { 
       id: 2,
-      title: 'Event 2', 
-      text: 'This is event 2 description.',
+      title: 'AUCTION HOUSE', 
+      text: 'Student teams run startups and tackle challenges through competitive auctions.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+2',
       fullDescription: 'This is the full detailed description of Event 2. It provides comprehensive information about what attendees can expect.',
       rules: 'Open to all participants. Individual participation only. No prior experience needed.',
@@ -34,8 +34,8 @@ export default function Events() {
     },
     { 
       id: 3,
-      title: 'Event 3', 
-      text: 'This is event 3 description.',
+      title: 'IDEA CRUNCH', 
+      text: 'A mega ideathon where ideas become startups, with winners earning seed funding.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+3',
       fullDescription: 'This is the full detailed description of Event 3. It provides comprehensive information about what attendees can expect.',
       rules: 'Students only. Team size: 1-3 members. ID card mandatory.',
@@ -46,8 +46,8 @@ export default function Events() {
     },
     { 
       id: 4,
-      title: 'Event 4', 
-      text: 'This is event 4 description.',
+      title: 'GEN Z BAZZAR', 
+      text: 'A next-gen marketplace celebrating young entrepreneurs through unique products, artisanal creations, and innovative services.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+4',
       fullDescription: 'This is the full detailed description of Event 4. It provides comprehensive information about what attendees can expect.',
       rules: 'Open to all. Limited seats available. First come first serve basis.',
@@ -58,8 +58,8 @@ export default function Events() {
     },
     { 
       id: 5,
-      title: 'Event 5', 
-      text: 'This is event 5 description.',
+      title: '20 QUESTIONS', 
+      text: 'A fast-paced event testing old-school entrepreneurial thinking and pitching in a pre-digital setting.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+5',
       fullDescription: 'This is the full detailed description of Event 5. It provides comprehensive information about what attendees can expect.',
       rules: 'Professional experience required. Registration fee applicable.',
@@ -70,8 +70,8 @@ export default function Events() {
     },
     { 
       id: 6,
-      title: 'Event 6', 
-      text: 'This is event 6 description.',
+      title: 'ARENA HUNT', 
+      text: 'A two-round challenge combining bluff-based elimination and a retro-tech startup scavenger hunt.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+6',
       fullDescription: 'This is the full detailed description of Event 6. It provides comprehensive information about what attendees can expect.',
       rules: 'All age groups welcome. Free entry. Refreshments provided.',
@@ -82,8 +82,8 @@ export default function Events() {
     },
     { 
       id: 7,
-      title: 'Event 7', 
-      text: 'This is event 7 description.',
+      title: 'FIND THE FAKE FOUNDER', 
+      text: 'A social deduction game where players uncover the Fake Founder by questioning who truly understands the startup scenario.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+7',
       fullDescription: 'This is the full detailed description of Event 7. It provides comprehensive information about what attendees can expect.',
       rules: 'College students only. Valid ID required. Team limit: 5 members.',
@@ -94,8 +94,8 @@ export default function Events() {
     },
     { 
       id: 8,
-      title: 'Event 8', 
-      text: 'This is event 8 description.',
+      title: "REBOOT '94", 
+      text: 'An immersive 1994-themed escape room where teams save a failing startup by solving puzzles under pressure.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+8',
       fullDescription: 'This is the full detailed description of Event 8. It provides comprehensive information about what attendees can expect.',
       rules: 'Industry professionals preferred. Networking session included.',
