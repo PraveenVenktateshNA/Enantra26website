@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PageTransition from './components/PageTransition';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import About from './pages/About';
@@ -30,6 +31,7 @@ export default function App() {
         </main>
         <Footer />
       </PageTransition>
+      <ScrollToTop />
     </div>
   );
 }
