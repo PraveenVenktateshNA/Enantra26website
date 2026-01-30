@@ -83,7 +83,7 @@ export default function Home() {
           
           <h1 className="text-4xl md:text-6xl font-bold tracking-wider font-mono md:ml-20">
             {showTitle && (
-              <span className="typewriter cursor" style={{ textShadow: '0 0 20px rgba(255,255,255,0.5)' }}>
+              <span className="typewriter glitch-active cursor" style={{ textShadow: '0 0 20px rgba(255,255,255,0.5)' }}>
                 ENANTRA '26
               </span>
             )}
