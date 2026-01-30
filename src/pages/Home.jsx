@@ -2,6 +2,23 @@ import useScrollReveal from '../hooks/useScrollReveal';
 import { useEffect, useState } from 'react';
 import enantraLogo from '../assets/enantra_gold_logo.png';
 
+// Import Media Gallery images
+import img1 from '../assets/Media Gallery/2EA992E2-94CA-4EF1-8DBB-F57D33DAEB24.jpg';
+import img2 from '../assets/Media Gallery/IMG_0059.jpg';
+import img3 from '../assets/Media Gallery/IMG_0228.jpg';
+import img4 from '../assets/Media Gallery/IMG_2817.JPG';
+import img5 from '../assets/Media Gallery/IMG_2822.JPG';
+import img6 from '../assets/Media Gallery/IMG_2824.JPG';
+import img7 from '../assets/Media Gallery/IMG_2827 (1).jpg';
+import img8 from '../assets/Media Gallery/IMG_2828.jpg';
+import img9 from '../assets/Media Gallery/IMG_2829.jpg';
+import img10 from '../assets/Media Gallery/IMG_7800.JPG';
+import img11 from '../assets/Media Gallery/IMG_7894.jpg';
+import img12 from '../assets/Media Gallery/IMG_9109.JPG';
+import img13 from '../assets/Media Gallery/IMG_9777.jpg';
+import img14 from '../assets/Media Gallery/_MG_6792.JPG';
+import img15 from '../assets/Media Gallery/_MG_6823.JPG';
+
 export default function Home() {
   const heroRef = useScrollReveal({ threshold: 0.6 });
   const ausecRef = useScrollReveal({ threshold: 0.3 });
@@ -15,6 +32,13 @@ export default function Home() {
     minutes: 0,
     seconds: 0
   });
+
+  // Gallery images array
+  const galleryImages = [
+    img1, img2, img3, img4, img5, 
+    img6, img7, img8, img9, img10,
+    img11, img12, img13, img14, img15
+  ];
   
   useEffect(() => {
     const timer = setTimeout(() => setShowTitle(true), 300);
@@ -164,7 +188,7 @@ export default function Home() {
           <div className="film-container mt-8">
             <div className="film-strip">
               {/* First set of frames */}
-              {[...Array(15)].map((_, i) => (
+              {galleryImages.map((img, i) => (
                 <div key={`frame-${i}`} className="film-segment">
                   <div className="sprocket-strip">
                     <div className="hole"></div>
@@ -177,7 +201,7 @@ export default function Home() {
                     <div className="hole"></div>
                   </div>
                   <div className="film-frame">
-                    <img src={`https://picsum.photos/400/300?random=${i + 1}`} alt={`Gallery ${i + 1}`} />
+                    <img src={img} alt={`Gallery ${i + 1}`} />
                   </div>
                   <div className="sprocket-strip">
                     <div className="hole"></div>
@@ -192,7 +216,7 @@ export default function Home() {
                 </div>
               ))}
               {/* Duplicate for seamless loop */}
-              {[...Array(15)].map((_, i) => (
+              {galleryImages.map((img, i) => (
                 <div key={`frame-dup-${i}`} className="film-segment">
                   <div className="sprocket-strip">
                     <div className="hole"></div>
@@ -205,7 +229,7 @@ export default function Home() {
                     <div className="hole"></div>
                   </div>
                   <div className="film-frame">
-                    <img src={`https://picsum.photos/400/300?random=${i + 1}`} alt={`Gallery ${i + 1}`} />
+                    <img src={img} alt={`Gallery ${i + 1}`} />
                   </div>
                   <div className="sprocket-strip">
                     <div className="hole"></div>
