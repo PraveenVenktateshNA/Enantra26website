@@ -14,7 +14,11 @@ export default function Events() {
       text: 'ENANTRA’s flagship event spotlighting bold young entrepreneurs and their journeys.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+1',
       fullDescription: '6-Degree Talks is the flagship event of ENANTRA where we bring stories of fearless young entrepreneurs who have dared to dream, create, and make their mark on the business world from the makers of the ideas itself.',
-      rules: ['Open to all participants. Team size: 2-4 members. Prior registration required.'],
+      rules: [
+              'Open to all participants.' ,
+              'Team size: 2-4 members.' ,
+              'Prior registration required.'
+            ],
       dateTime: 'January 15, 2025 | 10:00 AM - 5:00 PM',
       venue: 'Main Auditorium, Building A',
       contact: 'John Doe | +91 98765 43210 | john@example.com',
@@ -26,7 +30,10 @@ export default function Events() {
       text: 'Student teams run startups and tackle challenges through competitive auctions.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+2',
       fullDescription: 'Teams of students take up different roles to form startups/companies. They kickstart their business and navigate through problems their company could face by embarking on a journey where they auction items while bidding against competitors.',
-      rules: ['Open to all participants. Individual participation only. No prior experience needed.'],
+      rules: [
+              'Open to all participants.', 
+              'Team of 2-4 people allowed.'
+            ],
       dateTime: 'January 16, 2025 | 2:00 PM - 6:00 PM',
       venue: 'Conference Hall, Building B',
       contact: 'Jane Smith | +91 98765 43211 | jane@example.com',
@@ -38,7 +45,10 @@ export default function Events() {
       text: 'A mega ideathon where ideas become startups, with winners earning seed funding.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+3',
       fullDescription: 'A mega ideathon organized by the Startup Team where aspiring entrepreneurs, tech wizards, and visionary thinkers converge to transform their groundbreaking ideas into fully-fledged startups. The winners of the event receive seed funding for their winning idea.',
-      rules: ['Students only. Team size: 1-3 members. ID card mandatory.'],
+      rules: [
+              'Students only.', 
+              'Team size: 1-3 members.'
+            ],
       dateTime: 'January 17, 2025 | 9:00 AM - 1:00 PM',
       venue: 'Lab Complex, Building C',
       contact: 'Mike Johnson | +91 98765 43212 | mike@example.com',
@@ -50,7 +60,11 @@ export default function Events() {
       text: 'A next-gen marketplace celebrating young entrepreneurs through unique products, artisanal creations, and innovative services.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+4',
       fullDescription: "An exceptional marketplace showcasing the creativity of the nextgen entrepreneurs through unique products, artisanal creations, and innovative services. It's a celebration of the entrepreneurial spirit fuelling these small-scale businesses.",
-      rules: ['Open to all. Limited seats available. First come first serve basis.'],
+      rules: [
+              'Open to all.', 
+              'Limited seats available.', 
+              'First come first serve basis.'
+            ],
       dateTime: 'January 18, 2025 | 11:00 AM - 4:00 PM',
       venue: 'Seminar Hall, Building D',
       contact: 'Sarah Williams | +91 98765 43213 | sarah@example.com',
