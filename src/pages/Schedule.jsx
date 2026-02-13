@@ -21,10 +21,10 @@ export default function Schedule() {
       <div className="mt-2 text-neutral-500 font-mono text-xs tracking-widest">
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       </div>
-      <div ref={ref} className="reveal mt-8 border-l-2 border-white/30 pl-8 space-y-8" style={{ boxShadow: '-5px 0 15px rgba(255,255,255,0.05)' }}>
+      <div ref={ref} className="reveal mt-8 border-l-2 border-white/30 pl-4 md:pl-8 space-y-8" style={{ boxShadow: '-5px 0 15px rgba(255,255,255,0.05)' }}>
         {items.map((i, idx) => (
           <div key={idx} className="group relative">
-            <div className="absolute -left-[43px] top-[2px] w-3 h-3 bg-white rounded-full" style={{ boxShadow: '0 0 10px rgba(255,255,255,0.8)' }}></div>
+            <div className="absolute -left-[27px] md:-left-[43px] top-[2px] w-3 h-3 bg-white rounded-full" style={{ boxShadow: '0 0 10px rgba(255,255,255,0.8)' }}></div>
             <div className="text-neutral-400 text-xs font-mono tracking-widest">[{i.time}]</div>
             <div className="text-xl font-bold font-mono tracking-wide uppercase group-hover:text-white transition retro-hover mt-1">{i.title}</div>
             <div className="text-neutral-300 text-sm font-mono mt-1">{i.desc}</div>

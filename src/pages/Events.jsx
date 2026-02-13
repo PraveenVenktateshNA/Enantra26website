@@ -19,8 +19,8 @@ export default function Events() {
               'Team size: 2-4 members.' ,
               'Prior registration required.'
             ],
-      dateTime: 'January 15, 2025 | 10:00 AM - 5:00 PM',
-      venue: 'Main Auditorium, Building A',
+      dateTime: 'February 22, 2025 | 10:00 AM - 5:00 PM',
+      venue: 'Vivek Auditorium',
       contact: 'John Doe | +91 98765 43210 | john@example.com',
       registerLink: 'https://unstop.com/event1'
     },
@@ -34,8 +34,8 @@ export default function Events() {
               'Open to all participants.', 
               'Team of 2-4 people allowed.'
             ],
-      dateTime: 'January 16, 2025 | 2:00 PM - 6:00 PM',
-      venue: 'Conference Hall, Building B',
+      dateTime: 'February 22, 2025 | 2:00 PM - 6:00 PM',
+      venue: 'Vivek Auditorium',
       contact: 'Jane Smith | +91 98765 43211 | jane@example.com',
       registerLink: 'https://unstop.com/event2'
     },
@@ -50,7 +50,7 @@ export default function Events() {
               'Team size: 1-3 members.'
             ],
       dateTime: 'January 17, 2025 | 9:00 AM - 1:00 PM',
-      venue: 'Lab Complex, Building C',
+      venue: 'Vivek Auditorium',
       contact: 'Mike Johnson | +91 98765 43212 | mike@example.com',
       registerLink: 'https://unstop.com/event3'
     },
@@ -65,7 +65,7 @@ export default function Events() {
               'Limited seats available.', 
               'First come first serve basis.'
             ],
-      dateTime: 'January 18, 2025 | 11:00 AM - 4:00 PM',
+      dateTime: 'February 22  , 2025 | 11:00 AM - 4:00 PM',
       venue: 'Seminar Hall, Building D',
       contact: 'Sarah Williams | +91 98765 43213 | sarah@example.com',
       registerLink: 'https://unstop.com/event4'
@@ -145,42 +145,7 @@ export default function Events() {
       contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
       registerLink: 'https://unstop.com/event9'
     },
-    { 
-      id: 10,
-      title: 'Event 10', 
-      text: 'This is event 10 description.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+10',
-      fullDescription: 'This is the full detailed description of Event 10. It provides comprehensive information about what attendees can expect.',
-      rules: ['Advanced level participants. Certificate of completion provided.'],
-      dateTime: 'January 24, 2025 | 11:00 AM - 2:00 PM',
-      venue: 'Training Room, Building I',
-      contact: 'Patricia Taylor | +91 98765 43219 | patricia@example.com',
-      registerLink: 'https://unstop.com/event10'
-    },
-    { 
-      id: 11,
-      title: 'Event 11', 
-      text: 'This is event 11 description.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+11',
-      fullDescription: 'This is the full detailed description of Event 11. It provides comprehensive information about what attendees can expect.',
-      rules: ['Groups of 3-6 members. Accommodation available for outstation participants.'],
-      dateTime: 'January 25, 2025 | 10:00 AM - 4:00 PM',
-      venue: 'Sports Complex, Campus',
-      contact: 'Mark Thompson | +91 98765 43220 | mark@example.com',
-      registerLink: 'https://unstop.com/event11'
-    },
-    { 
-      id: 12,
-      title: 'Event 12', 
-      text: 'This is event 12 description.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+12',
-      fullDescription: 'This is the full detailed description of Event 12. It provides comprehensive information about what attendees can expect.',
-      rules: ['Solo participation only. Materials provided. Photography allowed.'],
-      dateTime: 'January 26, 2025 | 3:00 PM - 9:00 PM',
-      venue: 'Art Gallery, Building J',
-      contact: 'Nancy White | +91 98765 43221 | nancy@example.com',
-      registerLink: 'https://unstop.com/event12'
-    },
+    
   ];
 
   return (
