@@ -56,7 +56,7 @@ export default function Events() {
     },
     { 
       id: 4,
-      title: 'GEN Z BAZZAR', 
+      title: 'GEN-Z BAZAAR', 
       text: 'A next-gen marketplace celebrating young entrepreneurs through unique products, artisanal creations, and innovative services.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+4',
       fullDescription: "An exceptional marketplace showcasing the creativity of the nextgen entrepreneurs through unique products, artisanal creations, and innovative services. It's a celebration of the entrepreneurial spirit fuelling these small-scale businesses.",
