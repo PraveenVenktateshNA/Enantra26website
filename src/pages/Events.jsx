@@ -19,7 +19,7 @@ export default function Events() {
               'Team size: 2-4 members.' ,
               'Prior registration required.'
             ],
-      dateTime: 'February 22, 2025 | 10:00 AM - 5:00 PM',
+      dateTime: 'February 23, 2025',
       venue: 'Vivek Auditorium',
       contact: 'John Doe | +91 98765 43210 | john@example.com',
       registerLink: 'https://unstop.com/event1'
@@ -34,24 +34,23 @@ export default function Events() {
               'Open to all participants.', 
               'Team of 3-5 people allowed.'
             ],
-      dateTime: 'February 22, 2025 | 2:00 PM - 6:00 PM',
+      dateTime: 'February 23, 2025',
       venue: 'Vivek Auditorium',
-      contact: 'Jane Smith | +91 98765 43211 | jane@example.com',
+      contact: 'Upendra | +91 70941 10301 | Vishaka | +91 93454 94912',
       registerLink: 'https://unstop.com/p/auction-house-enantra-100-anna-university-student-entrepreneurship-club-1640298?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 3,
-      title: 'IDEA CRUNCH', 
-      text: 'A mega ideathon where ideas become startups, with winners earning seed funding.',
+      title: 'Business Mastery', 
+      text: 'A practical workshop building real-world business thinking and strategic leadership skills.',
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+3',
-      fullDescription: 'A mega ideathon organized by the Startup Team where aspiring entrepreneurs, tech wizards, and visionary thinkers converge to transform their groundbreaking ideas into fully-fledged startups. The winners of the event receive seed funding for their winning idea.',
-      rules: [
-              'Students only.', 
-              'Team size: 1-3 members.'
+      fullDescription: 'Business Mastery Workshop is a high-impact session that equips students and aspiring entrepreneurs with practical business insights and strategic thinking skills. Covering key areas such as business models, market positioning, leadership mindset, and growth strategies, the workshop bridges the gap between theory and real-world application. Through interactive discussions and case studies, participants gain actionable knowledge to think strategically and thrive in competitive environments.',
+      rules: [ 
+              'Induvidual Participation'
             ],
-      dateTime: 'January 17, 2025 | 9:00 AM - 1:00 PM',
+      dateTime: 'February 24, 2025 | Forenoon',
       venue: 'Vivek Auditorium',
-      contact: 'Mike Johnson | +91 98765 43212 | mike@example.com',
+      contact: 'Swarup | +91 97890 86940 | Thithika | +91 73393 42806',
       registerLink: 'https://unstop.com/event3'
     },
     { 
@@ -65,9 +64,9 @@ export default function Events() {
               'Limited seats available.', 
               'First come first serve basis.'
             ],
-      dateTime: 'February 22  , 2025 | 11:00 AM - 4:00 PM',
+      dateTime: 'February 23, 2025',
       venue: 'Seminar Hall, Building D',
-      contact: 'Sarah Williams | +91 98765 43213 | sarah@example.com',
+      contact: 'Ragavendran S | +91 96776 56128 | Nikitha | +91 93429 71237',
       registerLink: 'https://unstop.com/event4'
     },
     { 
@@ -80,9 +79,9 @@ export default function Events() {
               'The event consists of 2 rounds.',
               'Each team must have 2–4 members.'
             ],
-      dateTime: 'January 19, 2025 | 3:00 PM - 7:00 PM',
+      dateTime: 'February 23, 2025',
       venue: 'Workshop Area, Building E',
-      contact: 'Swarup (9789086940) | Cathrin Cynthia (8825430997) | Nikitha (9342971237)',
+      contact: 'Swarup | +91 97890 86940 | Nikitha | +91 93429 71237',
       registerLink: 'https://unstop.com/p/20-questions-retro-market-edition-enantra-100-anna-university-student-entrepreneurship-club-1640293?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
@@ -95,9 +94,9 @@ export default function Events() {
               'The event consists of 2 rounds.',
               'Each team must have 2–4 members.'
             ],
-      dateTime: 'January 20, 2025 | 10:00 AM - 3:00 PM',
+      dateTime: 'February 23, 2025',
       venue: 'Open Ground, Campus',
-      contact: 'Emily Davis | +91 98765 43215 | emily@example.com',
+      contact: 'Vignesh | +91 72002 39402 | Sam | +91 99404 29443',
       registerLink: 'https://unstop.com/p/arena-hunt-enantra-100-anna-university-student-entrepreneurship-club-1640292?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
@@ -109,9 +108,9 @@ export default function Events() {
       rules: [
               'Induvidual Participation'
             ],
-      dateTime: 'January 21, 2025 | 1:00 PM - 5:00 PM',
+      dateTime: 'February 24, 2025',
       venue: 'Innovation Lab, Building F',
-      contact: 'Robert Miller | +91 98765 43216 | robert@example.com',
+      contact: 'Upendra | +91 70941 10301 | Monicka | +91 63801 03269',
       registerLink: 'https://unstop.com/p/find-the-fake-founder-enantra-100-anna-university-student-entrepreneurship-club-1639388?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
@@ -124,9 +123,9 @@ export default function Events() {
               'The event consists of 2 rounds.',
               'Each team must have 2–4 members.'
             ],
-      dateTime: 'January 22, 2025 | 4:00 PM - 8:00 PM',
+      dateTime: 'February 24, 2025',
       venue: 'Executive Lounge, Building G',
-      contact: 'Linda Wilson | +91 98765 43217 | linda@example.com',
+      contact: 'Bhavatharini | +91 99627 00799 | Aadhithya | +91 73056 51790',
       registerLink: 'https://unstop.com/p/reboot-94-the-failing-startup-challenge-enantra-100-anna-university-student-entrepreneurship-club-1640289?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
@@ -140,9 +139,9 @@ export default function Events() {
               'Each team is assigned a separate desk',
               'Team members are positioned apart to prevent verbal or non-verbal communication'
       ],
-      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      dateTime: 'February 24, 2025 ',
       venue: 'Computer Center, Building H',
-      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      contact: 'Swayamprabha | +91 93846 70972 | Kapil | +91 93848 77833',
       registerLink: 'https://unstop.com/p/doordarshan-twisted-edition-enantra-100-anna-university-student-entrepreneurship-club-1640280?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
@@ -154,9 +153,9 @@ export default function Events() {
       rules: [
               'Induvidual Participation'
       ],
-      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      dateTime: 'February 23, 2025 | Forenoon',
       venue: 'Computer Center, Building H',
-      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      contact: 'Bhavatharini | +91 99627 00799 | Thithika | +91 73393 42806',
       registerLink: 'https://unstop.com/p/stock-market-workshop-enantra-100-anna-university-student-entrepreneurship-club-1642869?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
     },
     { 
@@ -168,9 +167,9 @@ export default function Events() {
       rules: [
               'Induvidual Participation'
       ],
-      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      dateTime: 'February 24, 2025 | Afternoon',
       venue: 'Computer Center, Building H',
-      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      contact: 'Tanish | +91 72002 39402 | Ragavendran S | +91 96776 56128 ',
       registerLink: 'https://unstop.com/p/networking-and-co-elevation-enantra-100-anna-university-student-entrepreneurship-club-1642866?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
     },
     { 
@@ -182,9 +181,9 @@ export default function Events() {
       rules: [
               'Induvidual Participation'
       ],
-      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      dateTime: 'February 23, 2025 | Afternoon',
       venue: 'Computer Center, Building H',
-      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      contact: 'Tanisha | +91 72002 39402 | Sam | +91 99404 29443',
       registerLink: 'https://unstop.com/p/keys-to-entrepreneurial-success-enantra-100-anna-university-au-chennai-1642856?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
     }
   ];
