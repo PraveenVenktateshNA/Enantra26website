@@ -32,12 +32,12 @@ export default function Events() {
       fullDescription: 'Teams of students take up different roles to form startups/companies. They kickstart their business and navigate through problems their company could face by embarking on a journey where they auction items while bidding against competitors.',
       rules: [
               'Open to all participants.', 
-              'Team of 2-4 people allowed.'
+              'Team of 3-5 people allowed.'
             ],
       dateTime: 'February 22, 2025 | 2:00 PM - 6:00 PM',
       venue: 'Vivek Auditorium',
       contact: 'Jane Smith | +91 98765 43211 | jane@example.com',
-      registerLink: 'https://unstop.com/event2'
+      registerLink: 'https://unstop.com/p/auction-house-enantra-100-anna-university-student-entrepreneurship-club-1640298?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 3,
@@ -78,12 +78,12 @@ export default function Events() {
       fullDescription: '20 Questions – Retro Market Edition is a fast-paced, interactive mini-event that blends logical deduction, business intuition, and creative pitching, all set in a pre-2000 retro business environment.',
       rules: [
               'The event consists of 2 rounds.',
-              'Each team must have 3–4 members.'
+              'Each team must have 2–4 members.'
             ],
       dateTime: 'January 19, 2025 | 3:00 PM - 7:00 PM',
       venue: 'Workshop Area, Building E',
       contact: 'Swarup (9789086940) | Cathrin Cynthia (8825430997) | Nikitha (9342971237)',
-      registerLink: 'https://unstop.com/event5'
+      registerLink: 'https://unstop.com/p/20-questions-retro-market-edition-enantra-100-anna-university-student-entrepreneurship-club-1640293?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 6,
@@ -93,12 +93,12 @@ export default function Events() {
       fullDescription: 'Arena Hunt consists of two rounds. The first round is a mass-participation elimination stage inspired by bluffing games, while the second round is a full outdoor scavenger hunt that simulates a startup journey using retro technology concepts applied to modern campus problems.',
       rules: [
               'The event consists of 2 rounds.',
-              'Each team must have 3–4 members.'
+              'Each team must have 2–4 members.'
             ],
       dateTime: 'January 20, 2025 | 10:00 AM - 3:00 PM',
       venue: 'Open Ground, Campus',
       contact: 'Emily Davis | +91 98765 43215 | emily@example.com',
-      registerLink: 'https://unstop.com/event6'
+      registerLink: 'https://unstop.com/p/arena-hunt-enantra-100-anna-university-student-entrepreneurship-club-1640292?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 7,
@@ -107,12 +107,12 @@ export default function Events() {
       image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+7',
       fullDescription: 'Find the Fake Founder is a social deduction game inspired by Mafia/Among Us, built around a realistic startup situation. One participant is a Fake Founder who does not know the real problem. The rest are Real Founders who share the same hidden backstory.The group asks indirect Yes, No, Maybe questions. Only those who truly know the situation can answer consistently.',
       rules: [
-              'Its ideal to have 6-8 players per round.'
+              'Induvidual Participation'
             ],
       dateTime: 'January 21, 2025 | 1:00 PM - 5:00 PM',
       venue: 'Innovation Lab, Building F',
       contact: 'Robert Miller | +91 98765 43216 | robert@example.com',
-      registerLink: 'https://unstop.com/event7'
+      registerLink: 'https://unstop.com/p/find-the-fake-founder-enantra-100-anna-university-student-entrepreneurship-club-1639388?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 8,
@@ -122,12 +122,12 @@ export default function Events() {
       fullDescription: 'Reboot’94 is an immersive escape room style entrepreneurship event set in 1994 for a startup that is moments away from being shut down. Teams must fix the company department by department, unlock clues, solve puzzles and escape in the shortest time. Participants gain a practical understanding of how startups survive under pressure.',
       rules: [
               'The event consists of 2 rounds.',
-              'Each team must have 3–4 members.'
+              'Each team must have 2–4 members.'
             ],
       dateTime: 'January 22, 2025 | 4:00 PM - 8:00 PM',
       venue: 'Executive Lounge, Building G',
       contact: 'Linda Wilson | +91 98765 43217 | linda@example.com',
-      registerLink: 'https://unstop.com/event8'
+      registerLink: 'https://unstop.com/p/reboot-94-the-failing-startup-challenge-enantra-100-anna-university-student-entrepreneurship-club-1640289?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 9,
@@ -143,9 +143,50 @@ export default function Events() {
       dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
       venue: 'Computer Center, Building H',
       contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
-      registerLink: 'https://unstop.com/event9'
+      registerLink: 'https://unstop.com/p/doordarshan-twisted-edition-enantra-100-anna-university-student-entrepreneurship-club-1640280?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
-    
+    { 
+      id: 10,
+      title: 'Stock Market Workshop', 
+      text: 'An interactive workshop that equips students with the fundamentals, mindset, and confidence to start investing wisely in the stock market.',
+      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+9',
+      fullDescription: 'Stock Market Workshop is a practical, beginner-friendly session that introduces students to how the stock market works and how investing builds long-term wealth. Participants learn the fundamentals of stock analysis, diversification, portfolio building, and risk management—along with the right investor mindset of patience and discipline. Through real-world examples and case discussions, the workshop equips students with the confidence to start their investing journey responsibly.',
+      rules: [
+              'Induvidual Participation'
+      ],
+      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      venue: 'Computer Center, Building H',
+      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      registerLink: 'https://unstop.com/p/stock-market-workshop-enantra-100-anna-university-student-entrepreneurship-club-1642869?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
+    },
+    { 
+      id: 11,
+      title: 'Networking and Co-Elevation', 
+      text: 'An engaging workshop that empowers students to build authentic professional networks and unlock career opportunities.',
+      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+9',
+      fullDescription: 'Networking for Success is an interactive workshop that helps students build strong professional relationships for career and personal growth. Participants learn effective communication, personal branding, and strategic networking techniques—including leveraging LinkedIn, engaging at professional events, and maintaining meaningful connections. Through practical tips and real-world insights, the session equips students with the confidence to create authentic networks that open doors to internships, jobs, and collaborations.',
+      rules: [
+              'Induvidual Participation'
+      ],
+      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      venue: 'Computer Center, Building H',
+      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      registerLink: 'https://unstop.com/p/networking-and-co-elevation-enantra-100-anna-university-student-entrepreneurship-club-1642866?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
+    },
+    { 
+      id: 12,
+      title: 'Keys to Entrepreneurial Success', 
+      text: 'An inspiring seminar that empowers students to transform ideas into sustainable and successful businesses.',
+      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+9',
+      fullDescription: 'Entrepreneurship Success Seminar is an interactive workshop that equips students with the mindset and practical skills to turn ideas into successful businesses. Participants learn how to identify opportunities, develop innovative concepts, and understand the fundamentals of business planning, funding, and marketing. Through real-world success stories and actionable insights, the session builds confidence to navigate challenges and create sustainable, growth-driven ventures.',
+      rules: [
+              'Induvidual Participation'
+      ],
+      dateTime: 'January 23, 2025 | 9:00 AM - 6:00 PM',
+      venue: 'Computer Center, Building H',
+      contact: 'Chris Anderson | +91 98765 43218 | chris@example.com',
+      registerLink: 'https://unstop.com/p/keys-to-entrepreneurial-success-enantra-100-anna-university-au-chennai-1642856?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
+    }
   ];
 
   return (
