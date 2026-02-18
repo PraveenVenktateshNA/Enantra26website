@@ -68,7 +68,7 @@ export default function Events() {
       dateTime: 'February 23, 2025',
       venue: 'Seminar Hall, Building D',
       contact: 'Ragavendran S | +91 96776 56128 | Nikitha | +91 93429 71237',
-      registerLink: 'https://unstop.com/event4'
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScDAeH1snvDmb4NEGbkRmSw--dvOjk2zuSxHEGJ9UjPT2OIZg/viewform'
     },
     { 
       id: 5,
