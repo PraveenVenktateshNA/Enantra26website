@@ -2,6 +2,7 @@ import useScrollReveal from '../hooks/useScrollReveal';
 import Card from '../components/Card';
 import { useState } from 'react';
 import EventModal from '../components/EventModal';
+import genzBazaarPoster from '../assets/posters/genz_bazaar.jpeg';
 
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
@@ -57,7 +58,7 @@ export default function Events() {
       id: 4,
       title: 'GEN-Z BAZAAR', 
       text: 'A next-gen marketplace celebrating young entrepreneurs through unique products, artisanal creations, and innovative services.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+4',
+      image: genzBazaarPoster,
       fullDescription: "An exceptional marketplace showcasing the creativity of the nextgen entrepreneurs through unique products, artisanal creations, and innovative services. It's a celebration of the entrepreneurial spirit fuelling these small-scale businesses.",
       rules: [
               'Open to all.', 
