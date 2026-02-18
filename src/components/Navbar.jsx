@@ -12,7 +12,6 @@ export default function Navbar() {
           {[
             { to: '/events', label: 'Events' },
             { to: '/about', label: 'About' },            { to: '/team', label: 'Team' },            { to: '/schedule', label: 'Schedule' },
-            { to: '/sponsors', label: 'Sponsors' },
             { to: '/contact', label: 'Contact' },
           ].map((item) => (
             <li key={item.to}>
