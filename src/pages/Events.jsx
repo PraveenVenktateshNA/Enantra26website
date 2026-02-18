@@ -3,6 +3,10 @@ import Card from '../components/Card';
 import { useState } from 'react';
 import EventModal from '../components/EventModal';
 import genzBazaarPoster from '../assets/posters/genz_bazaar.jpeg';
+import arenaPoster from '../assets/posters/arenahunt.jpeg';
+import auctionPoster from '../assets/posters/auctionhouse.png';
+import rebootPoster from '../assets/posters/Reboot.jpeg';
+import stockPoster from '../assets/posters/stock_workshop.jpeg';
 
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
@@ -29,7 +33,7 @@ export default function Events() {
       id: 2,
       title: 'AUCTION HOUSE', 
       text: 'Student teams run startups and tackle challenges through competitive auctions.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+2',
+      image: auctionPoster,
       fullDescription: 'Teams of students take up different roles to form startups/companies. They kickstart their business and navigate through problems their company could face by embarking on a journey where they auction items while bidding against competitors.',
       rules: [
               'Open to all participants.', 
@@ -89,7 +93,7 @@ export default function Events() {
       id: 6,
       title: 'ARENA HUNT', 
       text: 'A two-round challenge combining bluff-based elimination and a retro-tech startup scavenger hunt.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+6',
+      image: arenaPoster,
       fullDescription: 'Arena Hunt consists of two rounds. The first round is a mass-participation elimination stage inspired by bluffing games, while the second round is a full outdoor scavenger hunt that simulates a startup journey using retro technology concepts applied to modern campus problems.',
       rules: [
               'The event consists of 2 rounds.',
@@ -118,7 +122,7 @@ export default function Events() {
       id: 8,
       title: "REBOOT '94", 
       text: 'An immersive 1994-themed escape room where teams save a failing startup by solving puzzles under pressure.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+8',
+      image: rebootPoster,
       fullDescription: 'Reboot’94 is an immersive escape room style entrepreneurship event set in 1994 for a startup that is moments away from being shut down. Teams must fix the company department by department, unlock clues, solve puzzles and escape in the shortest time. Participants gain a practical understanding of how startups survive under pressure.',
       rules: [
               'The event consists of 2 rounds.',
@@ -149,7 +153,7 @@ export default function Events() {
       id: 10,
       title: 'Stock Market Workshop', 
       text: 'An interactive workshop that equips students with the fundamentals, mindset, and confidence to start investing wisely in the stock market.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+9',
+      image: stockPoster,
       fullDescription: 'Stock Market Workshop is a practical, beginner-friendly session that introduces students to how the stock market works and how investing builds long-term wealth. Participants learn the fundamentals of stock analysis, diversification, portfolio building, and risk management—along with the right investor mindset of patience and discipline. Through real-world examples and case discussions, the workshop equips students with the confidence to start their investing journey responsibly.',
       rules: [
               'Induvidual Participation'
