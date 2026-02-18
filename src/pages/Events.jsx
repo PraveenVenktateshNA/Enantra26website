@@ -7,7 +7,7 @@ import arenaPoster from '../assets/posters/arenahunt.jpeg';
 import auctionPoster from '../assets/posters/auctionhouse.png';
 import rebootPoster from '../assets/posters/Reboot.jpeg';
 import stockPoster from '../assets/posters/stock_workshop.jpeg';
-
+import bussPoster from '../assets/posters/business.jpeg';
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -48,7 +48,7 @@ export default function Events() {
       id: 3,
       title: 'Business Mastery', 
       text: 'A practical workshop building real-world business thinking and strategic leadership skills.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+3',
+      image: bussPoster,
       fullDescription: 'Business Mastery Workshop is a high-impact session that equips students and aspiring entrepreneurs with practical business insights and strategic thinking skills. Covering key areas such as business models, market positioning, leadership mindset, and growth strategies, the workshop bridges the gap between theory and real-world application. Through interactive discussions and case studies, participants gain actionable knowledge to think strategically and thrive in competitive environments.',
       rules: [ 
               'Induvidual Participation'
