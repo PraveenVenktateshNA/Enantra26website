@@ -8,6 +8,8 @@ import auctionPoster from '../assets/posters/auctionhouse.png';
 import rebootPoster from '../assets/posters/Reboot.jpeg';
 import stockPoster from '../assets/posters/stock_workshop.jpeg';
 import bussPoster from '../assets/posters/business.jpeg';
+import question from '../assets/posters/20Questions.jpg';
+import doorPoster from '../assets/posters/Doordarshan.png';
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -78,7 +80,7 @@ export default function Events() {
       id: 5,
       title: '20 QUESTIONS', 
       text: 'A fast-paced event testing old-school entrepreneurial thinking and pitching in a pre-digital setting.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+5',
+      image: question,
       fullDescription: '20 Questions – Retro Market Edition is a fast-paced, interactive mini-event that blends logical deduction, business intuition, and creative pitching, all set in a pre-2000 retro business environment.',
       rules: [
               'The event consists of 2 rounds.',
@@ -137,7 +139,7 @@ export default function Events() {
       id: 9,
       title: 'Doordarshan', 
       text: 'A constraint-based challenge where teams build and adapt a product idea without discussion, simulating pre-internet, mass-market innovation under real-world limits.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+9',
+      image: doorPoster,
       fullDescription: 'This event is a constraint-driven innovation challenge designed to simulate real-world product development under limited communication, evolving requirements, and affordability-focused design. Teams build a product idea sequentially on paper without discussion, adapting continuously to new constraints while maintaining clarity and feasibility for a mass-market Indian audience inspired by a pre-internet mindset.',
       rules: [
               'Teams of four participants',
