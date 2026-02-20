@@ -12,7 +12,7 @@ import question from '../assets/posters/20Questions.jpg';
 import doorPoster from '../assets/posters/Doordarshan.png';
 import entrePoster from '../assets/posters/keys.png';
 import networkPoster from '../assets/posters/Networking.png';
-
+import pitchPoster from '../assets/posters/pitch.jpeg';
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -32,7 +32,7 @@ export default function Events() {
       dateTime: 'February 23, 2025',
       venue: 'Vivek Auditorium',
       contact: 'John Doe | +91 98765 43210 | john@example.com',
-      registerLink: 'https://unstop.com/event1'
+      registerLink: ''
     },
     { 
       id: 2,
@@ -195,6 +195,20 @@ export default function Events() {
       venue: 'Hall of Guines',
       contact: 'Tanisha | +91 72002 39402 | Sam | +91 99404 29443',
       registerLink: 'https://unstop.com/p/keys-to-entrepreneurial-success-enantra-100-anna-university-au-chennai-1642856?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
+    },
+    { 
+      id: 13,
+      title: 'Pitch & Perish', 
+      text: 'A high-intensity competition testing startup strategy, pitching, and decision-making under pressure.',
+      image: pitchPoster,
+      fullDescription: 'Pitch & Perish is a high-intensity entrepreneurship competition that challenges participants to think creatively, communicate persuasively, and analyze strategically under pressure. Designed to simulate real startup battles, the event pushes teams to make smart investment decisions, pitch convincingly, and defend their business logic in dynamic situations.',
+      rules: [
+              'Team size 2-3 members'
+      ],
+      dateTime: 'February 23, 2025 | 9:00 AM to 5:00 PM',
+      venue: 'Knowledge Park',
+      contact: 'Abijith Varma | +91 63835 47450 | Harini Rajam | +91 83470 89212 | Hemachandran | +91 94440 31643',
+      registerLink: ''
     }
   ];
 

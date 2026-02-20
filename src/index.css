@@ -225,9 +225,9 @@
   --grid-color: rgba(179, 214, 111, 0.08);
 }
 .grid > :nth-child(13) .card-minimal {
-  --card-bg: #0f1518;
-  --card-text: #88c0d0;
-  --grid-color: rgba(136, 192, 208, 0.08);
+  --card-bg: #1f1318;
+  --card-text: #f7768e;
+  --grid-color: rgba(247, 118, 142, 0.08);
 }
 .grid > :nth-child(14) .card-minimal {
   --card-bg: #17121a;
@@ -380,8 +380,8 @@ body:has(.grid > :nth-child(13) .card-minimal:hover) #root,
 body:has(.grid > :nth-child(13) .card-minimal:active) #root,
 body:has(.grid > :nth-child(13) .card-minimal:hover) *,
 body:has(.grid > :nth-child(13) .card-minimal:active) * {
-  background-color: #0f1518 !important;
-  color: #88c0d0 !important;
+  background-color: #1f1318 !important;
+  color: #f7768e !important;
 }
 body:has(.grid > :nth-child(14) .card-minimal:hover),
 body:has(.grid > :nth-child(14) .card-minimal:active),
@@ -999,8 +999,8 @@ body:has(.grid > :nth-child(12) .card-minimal:active) .grid-pattern {
 body:has(.grid > :nth-child(13) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(13) .card-minimal:active) .grid-pattern {
   background-image:
-    linear-gradient(rgba(136, 192, 208, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(136, 192, 208, 0.08) 1px, transparent 1px) !important;
+    linear-gradient(rgba(247, 118, 142, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(247, 118, 142, 0.08) 1px, transparent 1px) !important;
 }
 body:has(.grid > :nth-child(14) .card-minimal:hover) .grid-pattern,
 body:has(.grid > :nth-child(14) .card-minimal:active) .grid-pattern {
@@ -1335,6 +1335,25 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
 .event-modal-content[data-event-id="12"] .modal-close-btn {
   color: #b8cc8f;
   text-shadow: 0 0 10px #b8cc8f;
+}
+
+.event-modal-backdrop[data-event-id="13"] {
+  background-color: rgba(31, 19, 24, 0.95);
+}
+.event-modal-content[data-event-id="13"] {
+  background-color: #1f1318;
+  color: #f7768e;
+  border-color: #f7768e;
+  box-shadow:
+    0 0 30px #f7768e,
+    inset 0 0 30px rgba(247, 118, 142, 0.1);
+}
+.event-modal-content[data-event-id="13"] .modal-corner {
+  display: none;
+}
+.event-modal-content[data-event-id="13"] .modal-close-btn {
+  color: #f7768e;
+  text-shadow: 0 0 10px #f7768e;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
