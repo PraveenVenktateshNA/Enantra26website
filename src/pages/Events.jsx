@@ -13,6 +13,8 @@ import doorPoster from '../assets/posters/Doordarshan.png';
 import entrePoster from '../assets/posters/keys.png';
 import networkPoster from '../assets/posters/Networking.png';
 import pitchPoster from '../assets/posters/pitch.jpeg';
+import foundPoster from '../assets/posters/Find the fake founder.png'
+
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -113,7 +115,7 @@ export default function Events() {
       id: 7,
       title: 'FIND THE FAKE FOUNDER', 
       text: 'A social deduction game where players uncover the Fake Founder by questioning who truly understands the startup scenario.',
-      image: 'https://placehold.co/800x600/000000/FFFFFF/png?text=EVENT+7',
+      image: foundPoster,
       fullDescription: 'Find the Fake Founder is a social deduction game inspired by Mafia/Among Us, built around a realistic startup situation. One participant is a Fake Founder who does not know the real problem. The rest are Real Founders who share the same hidden backstory.The group asks indirect Yes, No, Maybe questions. Only those who truly know the situation can answer consistently.',
       rules: [
               'Induvidual Participation'
