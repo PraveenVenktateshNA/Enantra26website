@@ -32,7 +32,7 @@ export default function Events() {
       dateTime: 'February 23, 2025',
       venue: 'Vivek Auditorium',
       contact: 'John Doe | +91 98765 43210 | john@example.com',
-      registerLink: ''
+      registerLink: 'https://unstop.com/o/OmElWRB?lb=eUxCbbeV&utm_medium=Share&utm_source=WhatsApp'
     },
     { 
       id: 2,
