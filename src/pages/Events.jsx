@@ -215,17 +215,18 @@ export default function Events() {
     },
     { 
       id: 14,
-      title: 'The Big Quiz', 
+      title: 'The Biz Quiz', 
       text: 'A high-energy business quiz blending strategy, brand stories, and sharp wit.',
       image: bizPoster,
       fullDescription: 'Biz Quiz is a high-energy business trivia event that takes participants through iconic boardrooms, startup garages, and the fascinating stories behind global brands. Blending wit, nostalgia, and sharp business insight, the quiz challenges your corporate knowledge while connecting you with fellow entrepreneurs and enthusiasts. Compete for the grand prize—and ultimate bragging rights.',
       rules: [
-              'Team of 1-3 members'
+              'Team of 1-3 members',
+              'Its a 2 Round event'
       ],
-      dateTime: 'February 23, 2025 | 1:30 to 3:00 PM',
-      venue: 'Hall of Guines',
+      dateTime: 'February 23, 2025 | 9:30 to 12:30 PM',
+      venue: 'Turing Hall',
       contact: 'Bhavatharini | +91 99627 00799 | Thithika | +91 73393 42806',
-      registerLink: 'https://unstop.com/p/stock-market-workshop-enantra-100-anna-university-student-entrepreneurship-club-1642869?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
+      registerLink: ''
     }
   ];
 
