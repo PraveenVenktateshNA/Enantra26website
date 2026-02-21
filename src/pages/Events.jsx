@@ -15,6 +15,7 @@ import networkPoster from '../assets/posters/Networking.png';
 import pitchPoster from '../assets/posters/pitch.jpeg';
 import foundPoster from '../assets/posters/Find the fake founder.png';
 import bizPoster from '../assets/posters/Biz Quiz.png';
+import gamblePoster from '../assets/posters/found.jpeg';
 
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
@@ -211,7 +212,7 @@ export default function Events() {
       dateTime: 'February 23, 2025 | 9:00 AM to 5:00 PM',
       venue: 'Knowledge Park',
       contact: 'Abijith Varma | +91 63835 47450 | Harini Rajam | +91 83470 89212 | Hemachandran | +91 94440 31643',
-      registerLink: ''
+      registerLink: 'https://unstop.com/o/6ouOfUz?utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     },
     { 
       id: 14,
@@ -226,7 +227,22 @@ export default function Events() {
       dateTime: 'February 23, 2025 | 9:30 to 12:30 PM',
       venue: 'Turing Hall',
       contact: 'Bhavatharini | +91 99627 00799 | Thithika | +91 73393 42806',
-      registerLink: ''
+      registerLink: 'https://unstop.com/o/6yenVYF?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
+    },
+    { 
+      id: 15,
+      title: 'Founders Gamble', 
+      text: 'A high-pressure startup competition testing strategy, negotiation, adaptability, and execution.',
+      image: gamblePoster,
+      fullDescription: 'Startup Auction Arena is a high-pressure entrepreneurship competition that tests strategic thinking, adaptability, negotiation instinct, execution planning, and pitch clarity. Participants move from individual debate under constraints to team-based startup building, simulating real-world uncertainty and decision-making.',
+      rules: [
+              'Induvidual Participation',
+              'Its a 2 Round event'
+      ],
+      dateTime: 'February 24, 2025',
+      venue: 'Turing Hall',
+      contact: 'Moahmmed Uduman | +91 86100 21374 | Manimaran TS | +91 96263 75219',
+      registerLink: 'https://unstop.com/o/rwjIkNq?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Competitions'
     }
   ];
 
