@@ -1356,6 +1356,25 @@ body:has(.grid > :nth-child(20) .card-minimal:active) .grid-pattern {
   text-shadow: 0 0 10px #f7768e;
 }
 
+.event-modal-backdrop[data-event-id="14"] {
+  background-color: rgba(23, 18, 26, 0.95);
+}
+.event-modal-content[data-event-id="14"] {
+  background-color: #17121a;
+  color: #b48ead;
+  border-color: #b48ead;
+  box-shadow:
+    0 0 30px #b48ead,
+    inset 0 0 30px rgba(180, 142, 173, 0.1);
+}
+.event-modal-content[data-event-id="14"] .modal-corner {
+  display: none;
+}
+.event-modal-content[data-event-id="14"] .modal-close-btn {
+  color: #b48ead;
+  text-shadow: 0 0 10px #b48ead;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .event-modal-content::-webkit-scrollbar {
   display: none;

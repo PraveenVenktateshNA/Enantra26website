@@ -13,7 +13,8 @@ import doorPoster from '../assets/posters/Doordarshan.png';
 import entrePoster from '../assets/posters/keys.png';
 import networkPoster from '../assets/posters/Networking.png';
 import pitchPoster from '../assets/posters/pitch.jpeg';
-import foundPoster from '../assets/posters/Find the fake founder.png'
+import foundPoster from '../assets/posters/Find the fake founder.png';
+import bizPoster from '../assets/posters/Biz Quiz.png';
 
 export default function Events() {
   const headerRef = useScrollReveal({ threshold: 0.4 });
@@ -211,6 +212,20 @@ export default function Events() {
       venue: 'Knowledge Park',
       contact: 'Abijith Varma | +91 63835 47450 | Harini Rajam | +91 83470 89212 | Hemachandran | +91 94440 31643',
       registerLink: ''
+    },
+    { 
+      id: 14,
+      title: 'The Big Quiz', 
+      text: 'A high-energy business quiz blending strategy, brand stories, and sharp wit.',
+      image: bizPoster,
+      fullDescription: 'Biz Quiz is a high-energy business trivia event that takes participants through iconic boardrooms, startup garages, and the fascinating stories behind global brands. Blending wit, nostalgia, and sharp business insight, the quiz challenges your corporate knowledge while connecting you with fellow entrepreneurs and enthusiasts. Compete for the grand prize—and ultimate bragging rights.',
+      rules: [
+              'Team of 1-3 members'
+      ],
+      dateTime: 'February 23, 2025 | 1:30 to 3:00 PM',
+      venue: 'Hall of Guines',
+      contact: 'Bhavatharini | +91 99627 00799 | Thithika | +91 73393 42806',
+      registerLink: 'https://unstop.com/p/stock-market-workshop-enantra-100-anna-university-student-entrepreneurship-club-1642869?lb=eUxCbbeV&utm_medium=Share&utm_source=ausec2023&utm_campaign=Workshops'
     }
   ];
 
