@@ -125,7 +125,7 @@ export default function Home() {
           </p>
           
           <p className="mt-6 text-neutral-300 max-w-2xl mx-auto font-mono text-sm tracking-wide">
-            <span className="text-white">[</span> AUSEC's flagship event <span className="text-white">]</span>
+            <span className="text-white">[</span> Come next year Broskie <span className="text-white">]</span>
           </p>
           <div className="mt-2 text-neutral-500 font-mono text-xs tracking-widest">
             ━━━━━━━━━━━━━━━━━━━━━━
